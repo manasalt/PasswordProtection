@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\New folder\PasswordProtection\passprotection.c: In function 'main':
+C:\Users\Admin\Desktop\New folder\PasswordProtection\passprotection.c:7:6: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+ if((p=fopen("protect.c","w+")==NULL)
+      ^
+C:\Users\Admin\Desktop\New folder\PasswordProtection\passprotection.c:8:1: error: expected ')' before 'puts'
+ puts("File can not open!\n"),exit(1);
+ ^
+C:\Users\Admin\Desktop\New folder\PasswordProtection\passprotection.c:36:1: error: expected expression before '}' token
+ }
+ ^
