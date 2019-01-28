@@ -1,10 +1,2 @@
-C:\Users\Admin\Desktop\New folder\PasswordProtection\passprotection.c: In function 'main':
-C:\Users\Admin\Desktop\New folder\PasswordProtection\passprotection.c:7:6: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
- if((p=fopen("protect.c","w+")==NULL)
-      ^
-C:\Users\Admin\Desktop\New folder\PasswordProtection\passprotection.c:8:1: error: expected ')' before 'puts'
- puts("File can not open!\n"),exit(1);
- ^
-C:\Users\Admin\Desktop\New folder\PasswordProtection\passprotection.c:36:1: error: expected expression before '}' token
- }
- ^
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C:\Users\Admin\AppData\Local\Temp\passprotection.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
